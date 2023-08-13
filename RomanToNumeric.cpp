@@ -13,33 +13,20 @@ void romanToNumeric(string roman, int n) {
     symbols.insert({'D', 500});
     symbols.insert({'M', 1000});
     int num = 0;
-    int temp;
     int i=0;
+    if(n == 1) {
+        num = symbols[roman[i]];
+        return;
+    }
     while(i<n) {
-        if(n == 1) {
-            num = symbols[roman[i]];
-            break;
-        }
-            int j = i+1;
-            if(j > n) {
-                num = num + symbols[roman[i]];
-                cout<<num<<"1st if \n";
-                break;
-            }
-            if(symbols[roman[i]] < symbols[roman[j]]) {
-                temp = symbols[roman[j]] - symbols[roman[i]];
-                cout<<temp<<" 2nd  if \n";
-
+            if(symbols[roman[i]] < symbols[roman[i+1]]) {
+                num -= symbols[roman[i]];
+               
             }
             else {
-                temp = symbols[roman[i]] + symbols[roman[j]];
-                cout<<temp<<" else part \n";
+                num += symbols[roman[i]];
             }
-
-            i= j+1;
-            cout<<"i val "<<i<<endl;
- 
-            num = num + temp;
+            i= i+1;
     }
     cout<<num;
 }
