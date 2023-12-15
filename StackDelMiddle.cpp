@@ -5,7 +5,7 @@
 using namespace std;
 
 
-void delMiddle(stack<int> stk, int curr, int size, int count) {
+void delMiddle(stack<int> stk, int size, int count) {
     if(stk.empty()) {
         return;
     }
@@ -13,10 +13,11 @@ void delMiddle(stack<int> stk, int curr, int size, int count) {
         stk.pop();
         return;
     }
+    
     if(!stk.empty()) {
         int top = stk.top();
         stk.pop();
-        delMiddle(stk, curr+1, size, count+1);
+        delMiddle(stk, size, count+1);
 
         if(count != size/2) {
             stk.push(top);
@@ -40,6 +41,6 @@ int main() {
     int count = 0;
     int curr = 0;
     int size = stk.size();
-    delMiddle(stk, curr, size, count);
+    delMiddle(stk, size, count);
     return 0;
 }
