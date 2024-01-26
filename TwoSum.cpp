@@ -1,4 +1,6 @@
 #include<iostream>
+#include<vector>
+#include<unordered_map>
 using namespace std;
 
 int twoSum(int arr[], int n, int target) {
@@ -12,6 +14,25 @@ int twoSum(int arr[], int n, int target) {
   }
   return count;
 }
+
+// * Optimal Sol
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map <int, int> numMap;
+        int n = nums.size();
+        for(int i=0; i<n; i++) {
+            int complement = target - nums[i];
+            if(numMap.count(complement)) {
+                return {numMap[complement], i};
+            }
+            numMap[nums[i]] = i;
+        }
+        return {};
+}
+
+};
 
 int main() {
   int arr[] = {2, 4, 6, 3, 7, 5, 8};
