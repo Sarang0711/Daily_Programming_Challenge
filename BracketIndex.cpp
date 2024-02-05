@@ -12,7 +12,7 @@ int calculateIndex(string str, int len, int ind) {
         }
         else if(str[i] == ']' && !stk.empty()) {
             stk.pop();
-            continue;
+            // continue;
         }
         else if(str[i] == ']' && stk.empty()) {
             return i;
