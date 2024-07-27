@@ -20,4 +20,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0217-contains-duplicate) |
+## Math
+|  |
+| ------- |
+| [0371-sum-of-two-integers](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0371-sum-of-two-integers) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0371-sum-of-two-integers](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0371-sum-of-two-integers) |
 <!---LeetCode Topics End-->
