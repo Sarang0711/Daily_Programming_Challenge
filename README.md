@@ -28,9 +28,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0191-number-of-1-bits) |
+| [0338-counting-bits](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0371-sum-of-two-integers) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0191-number-of-1-bits) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
