@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0238-product-of-array-except-self) |
 ## Binary Search
 |  |
 | ------- |
@@ -40,4 +41,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0338-counting-bits](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0338-counting-bits) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
