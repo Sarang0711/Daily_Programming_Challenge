@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0002-add-two-numbers) |
 | [0268-missing-number](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0371-sum-of-two-integers) |
 ## Bit Manipulation
@@ -53,4 +54,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0238-product-of-array-except-self) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Sarang0711/Daily_Programming_Challenge/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
